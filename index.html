@@ -12,14 +12,15 @@
             <h2>Brew Haven</h2>
 
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#gallery">Gallery</a></li>
             </ul>
         </nav>
 
-        <section class="hero">
+        <section id="home" class="hero">
             <h1>Fresh Coffee Every Morning</h1>
 
             <p>Experience premium coffee made with passion.</p>
@@ -27,7 +28,7 @@
             <button>Order Now</button>
         </section>
 
-        <section class="about">
+        <section id="about" class="about">
 
             <div class="about-image">
                 <img src="assets/images/coffee.jpg" alt="Coffee Cup">
@@ -49,7 +50,7 @@
             </div>
         </section>
 
-        <section class="menu">
+        <section id="menu" class="menu">
 
             <h2>Our Popular Coffee</h2>
 
@@ -83,6 +84,17 @@
 
         </section>
 
+        <section id="gallery" class="gallery">
+            <h2>Our Gallery</h2>
+
+            <div class="gallery-container">
+                <img src="assets/images/gallery1.jpg" alt="Coffee">
+                <img src="assets/images/gallery2.jpg" alt="Cafe">
+                <img src="assets/images/gallery3.jpg" alt="Latte Art">
+                <img src="assets/images/gallery4.jpg" alt="Coffee Beans">
+            </div>
+        </section>
+
         <section class="testimonials">
 
             <h2>What Our Customers Say</h2>
@@ -114,7 +126,7 @@
 
         </section>
 
-        <section class="contact">
+        <section id="contact" class="contact">
 
             <h2>Contact Us</h2>
 
@@ -148,9 +160,17 @@
 
         </section>
 
-        <footer>
-            <p>© 2026 Brew Haven. All Rights Reserved.</p>
-        </footer>
+<button id="topBtn">↑</button>
+
+<footer>
+    <p>© 2026 Brew Haven. All Rights Reserved.</p>
+
+    <div class="social-links">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+    </div>
+</footer>
 
         <script src="script.js"></script>
 
